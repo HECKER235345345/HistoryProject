@@ -90,14 +90,10 @@
             cursor: pointer;
         }
 
-        .btn-group {
-            display: flex;
-            justify-content: space-between;
-            position: absolute;
-            z-index: 3;
-            top: 9%;
-            right: 1.%;
-        }
+        .btn-group .bgi {
+                font-size: 12;
+                color: rgb(255, 255, 142);
+            }
 
         .btn-group:hover {
             font-size: 12px;
@@ -121,32 +117,7 @@
             color: rgb(248, 248, 164);
         }
 
-        .btn-container {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            background-color: rgb(70, 84, 98);
-            z-index: 3;
-            display: flex;
-            justify-content: space-between;
-            padding: 10px;
-        }
-
-        .btn-container button {
-            margin-right: 10px;
-            background-color: rgb(70, 84, 98);
-            font-family: 'Courier New', Courier, monospace;
-            font-size: 16px;
-            font-weight: 200;
-            color: rgb(249, 249, 183);
-            border: none;
-            padding: 15px 32px;
-            text-align: center;
-            border-radius: 5px;
-            transition-duration: 0.3s;
-            cursor: pointer;
-        }
+        
     </style>
 </head>
 <body>
@@ -155,14 +126,14 @@
     <img src="images/microsoftoffice1.jpg" alt="The image didn't load" class="micro1">
     <img src="images/Pual allen1.png" alt="Are you not using Motorola's web browser?" class="pual1">
 
-    <div class="btn-container">
-        <button onclick="redirect1()" type="button" class="bgi">Background info</button>
-        <button onclick="redirect2()" type="button" class="ti">Technological impacts</button>
-        <button onclick="redirect3()" type="button" class="pi">Political impacts</button>
-        <button onclick="redirect4()" type="button" class="ei">Social impacts</button>
-        <button onclick="redirect5()" type="button" class="hfes">Heart of the story</button>
-        <button onclick="redirect6()" type="button" class="wc">Works cited</button>
-        <button onclick="redirect7()" type="button" class="home">Home</button>
+    <div class="btn-group">
+        <button onclick="redirect8()"type="button" class="bgi">background info</button>
+        <button onclick="redirect7()" type="button" class="ti">technological impacts</button>
+        <button onclick="redirect6()" type="button" class="pi">economical impacts</button>
+        <button onclick="redirect5()" type="button" class="ei">social impacts</button>
+        <button onclick="redirect4()" type="button" class="hfes">heart of the story</button>
+        <button onclick="redirect3()" type="button" class="wc">works cited</button>
+        <button onclick="redirect2()" type="button" class="home">home</button>
     </div>
 
     <h1>
@@ -171,27 +142,28 @@
     </h1>
 
     <script>
-        function redirect1() {
-            window.location.href = "backgroundinfo.html";
-        }
-        function redirect2() {
-            window.location.href = "techimpacts.html";
-        }
-        function redirect3() {
-            window.location.href = "historywebsite.html";
-        }
-        function redirect4() {
-            window.location.href = "socailimpacts.html";
-        }
-        function redirect5() {
-            window.location.href = "heartofthestory.html";
-        }
-        function redirect6() {
-            window.location.href = "workscited.html";
-        }
-        function redirect7() {
-            window.location.href = "historywebsite.html";
-        }
+                function redirect2() {
+                    window.location.href = "historywebsite.html";
+                }
+
+                function redirect3() {
+                    window.location.href = "workscited.html";
+                }
+                function redirect4() {
+                    window.location.href = "heartofstory.html";
+                }
+                function redirect5() {
+                    window.location.href = "socialimpacts.html";
+                }
+                function redirect6() {
+                    window.location.href = "econimpact.html";
+                }
+                function redirect7() {
+                    window.location.href = "techimpacts.html";
+                }
+                function redirect8() {
+                    window.location.href = "backgroundinfo.html";
+                }
     </script>
 </body>
 </html>

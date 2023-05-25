@@ -64,7 +64,15 @@ h2 {
     border: 5px solid;
     border-color: rgb(50, 60, 70); 
 }
-
+.cs{
+    max-width: 23%;
+    max-width: 23%;
+    position: absolute;
+    top: 64%;
+    left: 51.2%;
+    border: 5px solid;
+    border-color: rgb(50, 60, 70); 
+}
 .btn-group{
     position: fixed;
     top: 0;
